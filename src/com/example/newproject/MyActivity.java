@@ -11,5 +11,6 @@ public class MyActivity extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        final View viewById = findViewById(R.id.myTextView);
     }
 }
